@@ -15,13 +15,13 @@ export default function Home() {
     <main className="flex min-h-screen w-full flex-col items-center lg:px-24 pb-8 foreground relative transition-all">  
       <nav className="w-full z-20 foreground-1 fixed">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#Home" className="flex items-center text-center hover:text-blue-700">
+        <a href="#" className="flex items-center text-center hover:text-blue-700">
             <span className="self-center text-2xl font-semibold font-inputSans whitespace-nowrap dark:text-white">&lt;I/U&gt;<br/>
             </span>
         </a>
         <div className="flex lg:order-2">
             <button onClick={handleHire} type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-sm text-[14px] px-3 py-1 text-center mr-3 lg:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 font-inputSans">Hire me</button>
-            <button data-collapse-toggle="navbar-sticky" onClick={() => setOpen(!open)} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+            <button data-collapse-toggle="navbar-sticky" onClick={() => setOpen(!open)} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
               {
                 open ?
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24" className="humbleicons hi-times"><g xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-linecap="round" stroke-width="2"><path d="M6 18L18 6M18 18L6 6"/></g></svg>
@@ -130,22 +130,60 @@ export default function Home() {
       <div className="items-center justify-between w-full lg:flex lg:w-auto lg:order-1 mt-10">
           <ul className="flex flex-col p-4 lg:p-0 mt-4 font-md font-inputSansEL text-[14px] lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 nav-foreground ">
             <li>
-              <a href="#" className="block text-gray-900 rounded-full hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-700 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-color: white rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/phone_line (1).png' alt='outine of phone icon'/></div></a>
+              <a href="" className="block text-gray-900 rounded-full lg:hover:bg-transparent lg:hover:text-blue-700 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white"><div
+              className='
+              relative
+              before:content-[attr(data-tip)]
+              before:absolute
+              before:px-3 before:py-2
+              before:left-1/2 before:-top-3
+              before:w-max before:max-w-xs
+              before:-translate-x-1/2 before:-translate-y-full
+            before:text-white
+              before:rounded-md before:opacity-0
+              before:transition-all
+              before:border
+            before:border-white
+              before:backdrop-blur-sm
+
+              hover:before:opacity-100
+              '
+              data-tip="08089376425"
+              ><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/phone_line (1).png' alt='outine of phone icon'/></div></div></a>
             </li>
             <li>
-            <a href="#" className="block text-gray-900 rounded-full hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-color: white rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/facebook_line.png' alt='outine of facebook icon'/></div></a>
+            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/facebook_line.png' alt='outine of facebook icon'/></div></a>
             </li>
             <li>
-            <a href="#" className="block text-gray-900 rounded-full hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-color: white rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/ins_line.png' alt='outine of instagram icon'/></div></a>
+            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/ins_line.png' alt='outine of instagram icon'/></div></a>
             </li>
             <li>
-            <a href="#" className="block text-gray-900 rounded-full hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-color: white rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/twitter_line.png' alt='outine of twitter icon'/></div></a>
+            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/twitter_line.png' alt='outine of twitter icon'/></div></a>
             </li>
             <li>
-            <a href="#" className="block text-gray-900 rounded-full hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-color: white rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/linkedin_line.png' alt='outine of linkedin icon'/></div></a>
+            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/linkedin_line.png' alt='outine of linkedin icon'/></div></a>
             </li>
             <li>
-            <a href="#" className="block text-gray-900 rounded-full hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-color: white rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/mail_line.png' alt='outine of mail icon'/></div></a>
+            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div
+            className='
+              relative
+              before:content-[attr(data-tip)]
+              before:absolute
+              before:px-3 before:py-2
+              before:left-1/2 before:-top-3
+              before:w-max before:max-w-xs
+              before:-translate-x-1/2 before:-translate-y-full
+            before:text-white
+              before:rounded-md before:opacity-0
+              before:transition-all
+              before:border
+            before:border-white
+              before:backdrop-blur-sm
+
+              hover:before:opacity-100
+            '
+            data-tip="ifiokabasiudoe@gmail.com"
+            ><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/mail_line.png' alt='outine of mail icon'/></div></div></a>
             </li>
           </ul>
         </div>
