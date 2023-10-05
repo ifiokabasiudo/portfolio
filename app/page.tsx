@@ -2,6 +2,22 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Image from 'next/image'
+import MyPic from '../public/my-pic.jpg'
+import User3 from '../public/user_3_line.png'
+import Science from '../public/science_line (1).png'
+import Code from '../public/code_line (2).png'
+import LectureMate from '../public/biglogo.png'
+import ExLink from '../public/external_link_line.png'
+import Certificate from '../public/certificate_2_line (1).png'
+import Udemy1 from '../public/theCompleteWebDevCert.jpg'
+import Udemy2 from '../public/MongoDBCert.jpg'
+import Phone from '../public/phone_line (1).png'
+import Instagram from '../public/ins_line.png'
+import Twitter from '../public/twitter_line.png'
+import Linkedin from '../public/linkedin_line.png'
+import Mail from '../public/mail_line.png'
+import Facebook from '../public/facebook_line.png'
 
 export default function Home() {
   const [open, setOpen] = useState(false)
@@ -57,9 +73,9 @@ export default function Home() {
       <div id='Home' className='w-[200px] h-[200px] mt-24 relative'>
       <div className='border-2 border-dashed rounded-full w-[190px] h-[190px] flex items-center justify-center animate-spin' />
       <div className='border-2 border-dashed border-blue-600 rounded-full w-[170px] h-[170px] flex items-center justify-center animate-counterSpin absolute top-[5%] left-[5%]' />
-      <img
-          className='w-[75%] h-[75%] rounded-full absolute top-[10%] left-[10%]' 
-          src='./my-pic.jpg'
+      <Image
+          className='w-[75%] h-[75%] rounded-full absolute top-[10%] left-[10%]'
+          src={MyPic}
           alt='A man wearing a suit'
         />
       </div>
@@ -80,7 +96,7 @@ export default function Home() {
 
       <div className='flex flex-wrap gap-8 px-14'>
         <div id='About' className='foreground-2 font-ibmPlexSans text-left py-12 px-8 lg:px-14 w-[100%] rounded-2xl bg-gradient-to-r from-[#304B89] to-[#255B78]'>
-          <div className='py-3'><img className='w-10 inline-block mr-2' src='/user_3_line.png' alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>About me</h2></div>
+          <div className='py-3'><Image className='w-10 inline-block mr-2' src={User3} alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>About me</h2></div>
           <p>I'm Ifiokabasi Udo, a 21-year-old Full Stack Web Developer based in Delta State, Nigeria. I'm part of the 2023 graduating class of Covenant University, known for its excellence.
              I'm a Co-Founder and Development Team Lead of <a className='text-blue-600' href='lecturemate.org'>LectureMate</a>, an innovative AI app that's advancing the education sector. I'm also passionate about web development and have a track record of
              creating impactful projects. My strengths include strong communication, a calm demeanor, and a drive for perfection. I'm dedicated to continuous growth and making a positive impact 
@@ -88,7 +104,7 @@ export default function Home() {
           </p>
         </div>
         <div id='Skills' className='foreground-3 font-ibmPlexSans text-left py-12 px-8 lg:px-14 w-[100%] lg:w-[40%] rounded-2xl bg-gradient-to-r from-[#2C2C2C] to-[#242424]'>
-        <div className='py-3'><img className='w-10 inline-block mr-2' src='/science_line (1).png' alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>My Stack</h2></div>
+        <div className='py-3'><Image className='w-10 inline-block mr-2' src={Science} alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>My Stack</h2></div>
           <ul className='text-lg'>
             <li className='py-3'>HTML <span className='float-right'>90%</span><span className='bar'><span className='html'></span></span></li>
             <li className='py-3'>CSS <span className='float-right'>85%</span><span className='bar'><span className='css'></span></span></li>
@@ -106,9 +122,9 @@ export default function Home() {
           </ul>
         </div>
         <div id='Projects' className='foreground-4 font-ibmPlexSans flex-grow text-left py-12 px-8 lg:px-14 w-[100%] lg:w-[40%] rounded-2xl'>
-        <div className='py-3'><img className='w-10 inline-block mr-2' src='/code_line (2).png' alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>Projects</h2></div>
+        <div className='py-3'><Image className='w-10 inline-block mr-2' src={Code} alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>Projects</h2></div>
           <div>
-            <div><img className='w-10 inline-block' src='/biglogo.png' alt='lecturemate logo' /><a href='lecturemate.org' className='text-xl leading-none align-bottom px-2 hover:underline'>Lecturemate<img className='w-[24px] inline-block align-bottom ml-1' src='/external_link_line.png' alt='lecturemate.org link' /></a></div>
+            <div><Image className='w-10 inline-block' src={LectureMate} alt='lecturemate logo' /><a href='lecturemate.org' className='text-xl leading-none align-bottom px-2 hover:underline'>Lecturemate<Image className='w-[24px] inline-block align-bottom ml-1' src={ExLink} alt='lecturemate.org link' /></a></div>
             <video className='rounded-md w-[500px] mt-5 mb-5' autoPlay loop controls muted>
               <source src="/Lecture_Mate.mp4" type="video/mp4" />
             </video>
@@ -116,10 +132,10 @@ export default function Home() {
           </div>
         </div>
         <div id='Certificate' className='foreground-2 font-ibmPlexSans text-left py-12 px-8 lg:px-14 w-[100%] rounded-2xl bg-gradient-to-r from-[#304B89] to-[#255B78]'>
-          <div className='py-3'><img className='w-10 inline-block mr-2' src='/certificate_2_line (1).png' alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>Certificates</h2></div>
+          <div className='py-3'><Image className='w-10 inline-block mr-2' src={Certificate} alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>Certificates</h2></div>
           <div className='flex flex-wrap gap-4'>
-            <div className='md:w-[30%]'><img className='rounded-md inline-block' src='/theCompleteWebDevCert.jpg' alt='The Complete Web Dev Certificate'/></div>
-            <div className='md:w-[30%]'><img className='rounded-md inline-block' src='/MongoDBCert.jpg' alt='MongoDB Course certificate'/></div>
+            <div className='md:w-[30%]'><Image className='rounded-md inline-block' src={Udemy1} alt='The Complete Web Dev Certificate'/></div>
+            <div className='md:w-[30%]'><Image className='rounded-md inline-block' src={Udemy2} alt='MongoDB Course certificate'/></div>
           </div>
         </div>
       </div>
@@ -135,6 +151,8 @@ export default function Home() {
               relative
               before:content-[attr(data-tip)]
               before:absolute
+              before:cursor-none
+              before:pointer-events-none
               before:px-3 before:py-2
               before:left-1/2 before:-top-3
               before:w-max before:max-w-xs
@@ -149,25 +167,27 @@ export default function Home() {
               hover:before:opacity-100
               '
               data-tip="08089376425"
-              ><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/phone_line (1).png' alt='outine of phone icon'/></div></div></a>
+              ><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Phone} alt='outine of phone icon'/></div></div></a>
             </li>
             <li>
-            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/facebook_line.png' alt='outine of facebook icon'/></div></a>
+            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Facebook} alt='outine of facebook icon'/></div></a>
             </li>
             <li>
-            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/ins_line.png' alt='outine of instagram icon'/></div></a>
+            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Instagram} alt='outine of instagram icon'/></div></a>
             </li>
             <li>
-            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/twitter_line.png' alt='outine of twitter icon'/></div></a>
+            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Twitter} alt='outine of twitter icon'/></div></a>
             </li>
             <li>
-            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/linkedin_line.png' alt='outine of linkedin icon'/></div></a>
+            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Linkedin} alt='outine of linkedin icon'/></div></a>
             </li>
             <li>
             <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div
             className='
               relative
               before:content-[attr(data-tip)]
+              before:cursor-none
+              before:pointer-events-none
               before:absolute
               before:px-3 before:py-2
               before:left-1/2 before:-top-3
@@ -183,7 +203,7 @@ export default function Home() {
               hover:before:opacity-100
             '
             data-tip="ifiokabasiudoe@gmail.com"
-            ><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><img className='w-[24px] h-[24px]' src='/mail_line.png' alt='outine of mail icon'/></div></div></a>
+            ><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Mail} alt='outine of mail icon'/></div></div></a>
             </li>
           </ul>
         </div>
