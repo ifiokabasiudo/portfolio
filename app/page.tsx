@@ -146,7 +146,7 @@ export default function Home() {
       <div className="items-center justify-between w-full lg:flex lg:w-auto lg:order-1 mt-10">
           <ul className="flex flex-col p-4 lg:p-0 mt-4 font-md font-inputSansEL text-[14px] lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 nav-foreground ">
             <li>
-              <a href="" className="block text-gray-900 rounded-full lg:hover:bg-transparent lg:hover:text-blue-700 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white"><div
+              <div className="block text-gray-900 rounded-full lg:hover:bg-transparent lg:hover:text-blue-700 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white"><div
               className='
               relative
               before:content-[attr(data-tip)]
@@ -167,7 +167,7 @@ export default function Home() {
               hover:before:opacity-100
               '
               data-tip="08089376425"
-              ><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Phone} alt='outine of phone icon'/></div></div></a>
+              ><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Phone} alt='outine of phone icon'/></div></div></div>
             </li>
             <li>
             <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Facebook} alt='outine of facebook icon'/></div></a>
