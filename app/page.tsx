@@ -182,7 +182,7 @@ export default function Home() {
             <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Linkedin} alt='outine of linkedin icon'/></div></a>
             </li>
             <li>
-            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div
+            <div className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div
             className='
               relative
               before:content-[attr(data-tip)]
@@ -203,7 +203,7 @@ export default function Home() {
               hover:before:opacity-100
             '
             data-tip="ifiokabasiudoe@gmail.com"
-            ><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Mail} alt='outine of mail icon'/></div></div></a>
+            ><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Mail} alt='outine of mail icon'/></div></div></div>
             </li>
           </ul>
         </div>
