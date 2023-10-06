@@ -91,13 +91,13 @@ export default function Home() {
               A Full-Stack Web Developer
           </span>
         </div>
-        <p className='text-xl mt-5 leading-10 font-ibmPlexSans'>A passionate fullstack web developer with a knack for turning ideas into elegant, functional websites and applications.</p>
+        <p className='text-xl mt-5 leading-10 font-ibmPlexSans'>A passionate developer with a knack for turning ideas into elegant, functional websites and applications ready for production.</p>
       </div>
 
       <div className='flex flex-wrap gap-8 px-14'>
         <div id='About' className='foreground-2 font-ibmPlexSans text-left py-12 px-8 lg:px-14 w-[100%] rounded-2xl bg-gradient-to-r from-[#304B89] to-[#255B78]'>
           <div className='py-3'><Image className='w-10 inline-block mr-2' src={User3} alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>About me</h2></div>
-          <p>I'm Ifiokabasi Udo, a 21-year-old Full Stack Web Developer based in Delta State, Nigeria. I'm part of the 2023 graduating class of Covenant University, known for its excellence.
+          <p>I'm Ifiokabasi Udo, a 21-year-old Full Stack Web Developer based in Delta State, Nigeria. I'm an alumni of Covenant University where I attained a first degree in Information and Communication Engineering.
              I'm a Co-Founder and Development Team Lead of <a className='text-blue-600' href='lecturemate.org'>LectureMate</a>, an innovative AI app that's advancing the education sector. I'm also passionate about web development and have a track record of
              creating impactful projects. My strengths include strong communication, a calm demeanor, and a drive for perfection. I'm dedicated to continuous growth and making a positive impact 
              in the tech world.
