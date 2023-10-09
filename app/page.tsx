@@ -17,7 +17,7 @@ import Instagram from '../public/ins_line.png'
 import Twitter from '../public/twitter_line.png'
 import Linkedin from '../public/linkedin_line.png'
 import Mail from '../public/mail_line.png'
-import Facebook from '../public/facebook_line.png'
+import Github from '../public/github_line.png'
 
 export default function Home() {
   const [open, setOpen] = useState(false)
@@ -170,7 +170,7 @@ export default function Home() {
               ><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Phone} alt='outine of phone icon'/></div></div></div>
             </li>
             <li>
-            <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Facebook} alt='outine of facebook icon'/></div></a>
+            <a href="https://github.com/ifiokabasiudo" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Github} alt='outine of facebook icon'/></div></a>
             </li>
             <li>
             <a href="" className="block text-gray-900 rounded-full hover:border-blue-700 lg:hover:bg-transparent lg:hover:text-blue-700 pt-3 lg:p-0 lg:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"><div className='border flex items-center justify-center border-white hover:border-blue-700 rounded-full px-1 py-1'><Image className='w-[24px] h-[24px]' src={Instagram} alt='outine of instagram icon'/></div></a>
