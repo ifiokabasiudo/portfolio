@@ -8,6 +8,7 @@ import User3 from '../public/user_3_line.png'
 import Science from '../public/science_line (1).png'
 import Code from '../public/code_line (2).png'
 import LectureMate from '../public/biglogo.png'
+import Become from '../public/logo.jpg'
 import ExLink from '../public/external_link_line.png'
 import Certificate from '../public/certificate_2_line (1).png'
 import Udemy1 from '../public/theCompleteWebDevCert.jpg'
@@ -97,7 +98,7 @@ export default function Home() {
       <div className='flex flex-wrap gap-8 px-14'>
         <div id='About' className='foreground-2 font-ibmPlexSans text-left py-12 px-8 lg:px-14 w-[100%] rounded-2xl bg-gradient-to-r from-[#304B89] to-[#255B78]'>
           <div className='py-3'><Image className='w-10 inline-block mr-2' src={User3} alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>About me</h2></div>
-          <p>I'm Ifiokabasi Udo, a 21-year-old Full Stack Web Developer based in Delta State, Nigeria. I'm an alumni of Covenant University where I attained a first degree in Information and Communication Engineering.
+          <p>I'm Ifiokabasi Udo, 21 years old, based in Delta State, Nigeria. I'm an alumnus of Covenant University where I attained a first degree in Information and Communication Engineering.
              I'm a Co-Founder and Development Team Lead of <a className='text-blue-600' href='https://lecturemate.org'>LectureMate</a>, an innovative AI app that's advancing the education sector. I'm also passionate about web development and have a track record of
              creating impactful projects. My strengths include strong communication, a calm demeanor, and a drive for perfection. I'm dedicated to continuous growth and making a positive impact 
              in the tech world.
@@ -129,6 +130,13 @@ export default function Home() {
               <source src="/Lecture_Mate.mp4" type="video/mp4" />
             </video>
             <p>Lecture Mate uses AI to enhance student learning, fostering personalized and engaging experiences for improved academic performance.</p>
+          </div>
+          <div>
+            <div><Image className='w-10 inline-block' src={Become} alt='become logo' /><a href='https://become-one.vercel.app' className='text-xl leading-none align-bottom px-2 hover:underline'>Become<Image className='w-[24px] inline-block align-bottom ml-1' src={ExLink} alt='become-one.vercel.app link' /></a></div>
+            <video className='rounded-md w-[500px] mt-5 mb-5' autoPlay loop controls muted>
+              <source src="/become_video.mp4" type="video/mp4" />
+            </video>
+            <p>Stop daydreaming about the future and "Become" your future!!! Become hosts a wide range of features to bring you closer to the future of your dreams.</p>
           </div>
         </div>
         <div id='Certificate' className='foreground-2 font-ibmPlexSans text-left py-12 px-8 lg:px-14 w-[100%] rounded-2xl bg-gradient-to-r from-[#304B89] to-[#255B78]'>
