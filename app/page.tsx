@@ -124,7 +124,7 @@ export default function Home() {
         </div>
         <div id='Projects' className='foreground-4 font-ibmPlexSans flex-grow text-left py-12 px-8 lg:px-14 w-[100%] lg:w-[40%] rounded-2xl'>
         <div className='py-3'><Image className='w-10 inline-block mr-2' src={Code} alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>Projects</h2></div>
-          <div>
+          <div className='mb-5'>
             <div><Image className='w-10 inline-block' src={LectureMate} alt='lecturemate logo' /><a href='https://lecturemate.org' className='text-xl leading-none align-bottom px-2 hover:underline'>Lecturemate<Image className='w-[24px] inline-block align-bottom ml-1' src={ExLink} alt='lecturemate.org link' /></a></div>
             <video className='rounded-md w-[500px] mt-5 mb-5' autoPlay loop controls muted>
               <source src="/Lecture_Mate.mp4" type="video/mp4" />
