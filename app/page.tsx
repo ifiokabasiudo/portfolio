@@ -107,7 +107,7 @@ Information and Communication Engineering. Experienced in leading development
 teams and creating innovative web applications. Known for strong problem-solving,
 effective communication, and collaboration skills. Committed to continuous learning and
 excellence in the tech industry</p>
-          </p>
+{/*           </p> */}
         </div>
         <div id='Skills' className='foreground-3 font-ibmPlexSans text-left py-12 px-8 lg:px-14 w-[100%] lg:w-[40%] rounded-2xl bg-gradient-to-r from-[#2C2C2C] to-[#242424]'>
         <div className='py-3'><Image className='w-10 inline-block mr-2' src={Science} alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>My Stack</h2></div>
