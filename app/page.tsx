@@ -98,10 +98,15 @@ export default function Home() {
       <div className='flex flex-wrap gap-8 px-14'>
         <div id='About' className='foreground-2 font-ibmPlexSans text-left py-12 px-8 lg:px-14 w-[100%] rounded-2xl bg-gradient-to-r from-[#304B89] to-[#255B78]'>
           <div className='py-3'><Image className='w-10 inline-block mr-2' src={User3} alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>About me</h2></div>
-          <p>I'm Ifiokabasi Udo, 21 years old, based in Delta State, Nigeria. I'm an alumnus of Covenant University where I attained a first degree in Information and Communication Engineering.
+{/*           <p>I'm Ifiokabasi Udo, 21 years old, based in Delta State, Nigeria. I'm an alumnus of Covenant University where I attained a first degree in Information and Communication Engineering.
              I'm a Co-Founder and Development Team Lead of <a className='text-blue-600' href='https://lecturemate.org'>LectureMate</a>, an innovative AI app that's advancing the education sector. I'm also passionate about web development and have a track record of
              creating impactful projects. My strengths include strong communication, a calm demeanor, and a drive for perfection. I'm dedicated to continuous growth and making a positive impact 
-             in the tech world.
+             in the tech world. */}
+          <p>A dedicated and highly motivated Full Stack Web Developer with a strong background in
+Information and Communication Engineering. Experienced in leading development
+teams and creating innovative web applications. Known for strong problem-solving,
+effective communication, and collaboration skills. Committed to continuous learning and
+excellence in the tech industry</p>
           </p>
         </div>
         <div id='Skills' className='foreground-3 font-ibmPlexSans text-left py-12 px-8 lg:px-14 w-[100%] lg:w-[40%] rounded-2xl bg-gradient-to-r from-[#2C2C2C] to-[#242424]'>
@@ -125,7 +130,7 @@ export default function Home() {
         <div id='Projects' className='foreground-4 font-ibmPlexSans flex-grow text-left py-12 px-8 lg:px-14 w-[100%] lg:w-[40%] rounded-2xl'>
         <div className='py-3'><Image className='w-10 inline-block mr-2' src={Code} alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>Projects</h2></div>
           <div className='mb-5'>
-            <div><Image className='w-10 inline-block' src={LectureMate} alt='lecturemate logo' /><a href='https://lecturemate.org' target="_blank" className='text-xl leading-none align-bottom px-2 hover:underline'>Lecturemate<Image className='w-[24px] inline-block align-bottom ml-1' src={ExLink} alt='lecturemate.org link' /></a></div>
+            <div><Image className='w-10 inline-block' src={LectureMate} alt='lecturemate logo' /><a href='https://lecturemate-beta.vercel.app' target="_blank" className='text-xl leading-none align-bottom px-2 hover:underline'>Lecturemate<Image className='w-[24px] inline-block align-bottom ml-1' src={ExLink} alt='lecturemate.org link' /></a></div>
             <video className='rounded-md w-[500px] mt-5 mb-5' autoPlay loop controls muted>
               <source src="/Lecture_Mate.mp4" type="video/mp4" />
             </video>
