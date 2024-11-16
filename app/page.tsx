@@ -102,11 +102,7 @@ export default function Home() {
              I'm a Co-Founder and Development Team Lead of <a className='text-blue-600' href='https://lecturemate.org'>LectureMate</a>, an innovative AI app that's advancing the education sector. I'm also passionate about web development and have a track record of
              creating impactful projects. My strengths include strong communication, a calm demeanor, and a drive for perfection. I'm dedicated to continuous growth and making a positive impact 
              in the tech world. */}
-          <p>A dedicated and highly motivated Full Stack Web Developer with a strong background in
-Information and Communication Engineering. Experienced in leading development
-teams and creating innovative web applications. Known for strong problem-solving,
-effective communication, and collaboration skills. Committed to continuous learning and
-excellence in the tech industry</p>
+          <p>A Full-Stack Web Developer with a strong background in Information and Communication Engineering. Experienced in leading development teams and creating innovative web applications. Known for strong problem-solving, effective communication, and collaboration skills. A continuous learner with proven excellence in the tech industry</p>
 {/*           </p> */}
         </div>
         <div id='Skills' className='foreground-3 font-ibmPlexSans text-left py-12 px-8 lg:px-14 w-[100%] lg:w-[40%] rounded-2xl bg-gradient-to-r from-[#2C2C2C] to-[#242424]'>
