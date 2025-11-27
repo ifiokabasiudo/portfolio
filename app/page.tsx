@@ -19,6 +19,7 @@ import Twitter from '../public/twitter_line.png'
 import Linkedin from '../public/linkedin_line.png'
 import Mail from '../public/mail_line.png'
 import Github from '../public/github_line.png'
+import MasterCard from '../public/masterCard.png'
 
 export default function Home() {
   const [open, setOpen] = useState(false)
@@ -125,6 +126,13 @@ export default function Home() {
         </div>
         <div id='Projects' className='foreground-4 font-ibmPlexSans flex-grow text-left py-12 px-8 lg:px-14 w-[100%] lg:w-[40%] rounded-2xl'>
         <div className='py-3'><Image className='w-10 inline-block mr-2' src={Code} alt='a user profile image'/><h2 className='font-inputSans text-xl lg:text-3xl inline-block align-bottom'>Projects</h2></div>
+          <div className='mb-5'>
+            <div><Image className='w-10 inline-block' src={MasterCard} alt='NFC App' /><a href='/1127.mp4' target="_blank" className='text-xl leading-none align-bottom px-2 hover:underline'>NFC Payment<Image className='w-[24px] inline-block align-bottom ml-1' src={ExLink} alt='NFC App link' /></a></div>
+            <video className='rounded-md w-[500px] mt-5 mb-5' autoPlay loop controls muted>
+              <source src="/1127.mp4" type="video/mp4" />
+            </video>
+            <p>A secure web-based payment system that enables fast contactless transactions using NFC technology. The app supports real-time and offline transaction handling, automatic balance syncing when connectivity is restored, user authentication, transaction history tracking, and merchant payment simulation through a firmware emulator.</p>
+          </div>
           <div className='mb-5'>
             <div><Image className='w-10 inline-block' src={LectureMate} alt='lecturemate logo' /><a href='https://lecturemate-beta.vercel.app' target="_blank" className='text-xl leading-none align-bottom px-2 hover:underline'>Lecturemate<Image className='w-[24px] inline-block align-bottom ml-1' src={ExLink} alt='lecturemate.org link' /></a></div>
             <video className='rounded-md w-[500px] mt-5 mb-5' autoPlay loop controls muted>
